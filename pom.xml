@@ -117,15 +117,16 @@
 	</build>
 
 	<distributionManagement>
-	<repository>
-		<id>maven-releases</id>
-		<url>http://100.24.74.154:8081/repository/maven-releases/</url>
-	</repository>
-		<snapshotRepository>
-			<id>maven-snapshots</id>
-			<url>http://100.24.74.154:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
+    <repository>
+        <id>maven-releases/</id>
+        <url>http://100.24.74.154:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+	     <id>maven-snapshots/</id>
+        <url>http://100.24.74.154:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
 
 	
